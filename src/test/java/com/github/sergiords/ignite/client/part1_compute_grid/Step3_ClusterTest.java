@@ -35,7 +35,8 @@ class Step3_ClusterTest {
     }
 
     @Test
-    @DisplayName("runInCustomClusterGroup() should return ServerApp.getName() from Server1 and Server2 nodes only")
+    @DisplayName("runInCustomClusterGroup() should return ServerApp.getName() " +
+        "from Server1 and Server2 nodes only")
     void runInCustomClusterGroup() {
 
         Collection<String> result = step.runInCustomClusterGroup();
